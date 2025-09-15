@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_macros",
+  "%Name":"scr_vector2",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_macros",
+  "name":"scr_vector2",
   "parent":{
-    "name":"Game Setup",
-    "path":"folders/Scripts/Game Setup.yy",
+    "name":"Helper Functions",
+    "path":"folders/Scripts/Helper Functions.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

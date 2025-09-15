@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_macros",
+  "%Name":"scr_spawn_faction",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_macros",
+  "name":"scr_spawn_faction",
   "parent":{
     "name":"Game Setup",
     "path":"folders/Scripts/Game Setup.yy",

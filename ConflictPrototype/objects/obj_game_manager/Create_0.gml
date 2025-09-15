@@ -4,7 +4,11 @@
 
 //Keep track of turn order
 
-//Test stuff
+
+
+
+
+//Test stuff please ignore
 //spawn_card(100, 200, "Cards", "Army", 1, 1, 1);  
 //spawn_card(300, 200, "Cards", "Army", 1, 1, 1);
 

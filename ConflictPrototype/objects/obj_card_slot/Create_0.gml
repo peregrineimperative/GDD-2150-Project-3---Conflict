@@ -1,6 +1,8 @@
+//---Card slot data---
 occupied = false;
 card_in_slot = noone;
 
+//---Row information---
 row_index = -1;
 row_ref = noone
 

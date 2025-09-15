@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_game_board_parent",
+  "%Name":"obj_faction",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_game_board_parent",
+  "name":"obj_faction",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_game_board",
-    "path":"sprites/spr_game_board/spr_game_board.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

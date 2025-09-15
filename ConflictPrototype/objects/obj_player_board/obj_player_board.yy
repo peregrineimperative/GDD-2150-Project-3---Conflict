@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_game_board_parent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_player_board",
+  "eventList":[],
   "managed":true,
-  "name":"obj_game_board_parent",
+  "name":"obj_player_board",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_game_board_parent",
+    "path":"objects/obj_game_board_parent/obj_game_board_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_game_board",
-    "path":"sprites/spr_game_board/spr_game_board.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

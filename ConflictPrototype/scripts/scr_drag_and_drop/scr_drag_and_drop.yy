@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_drag_and_drop",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Card Scripts",
+    "path":"folders/Scripts/Card Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

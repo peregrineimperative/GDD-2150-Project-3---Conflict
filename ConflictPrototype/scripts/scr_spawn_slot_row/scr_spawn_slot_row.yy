@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_spawn_slot_row",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Game Setup",
+    "path":"folders/Scripts/Game Setup.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

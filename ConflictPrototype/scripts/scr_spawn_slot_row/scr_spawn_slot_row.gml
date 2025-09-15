@@ -6,7 +6,7 @@
 	//get_open() returns the first empty card slot, if available
 	//is_full() returns whether or not the row is full
 
-function spawn_slot_row(_board, _faction, _layer, _start_x, _start_y, _board_angle, _count){	
+function spawn_slot_row(_board, _layer, _start_x, _start_y, _board_angle, _count){	
 	
 	//Create a row struct to create a row of card slots at a time, associated with a given board, and whether it is a frontline or backline.
 	var _row = {
