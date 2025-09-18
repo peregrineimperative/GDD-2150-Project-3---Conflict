@@ -1,5 +1,9 @@
 if (!is_dragging){
-	depth = -y;	
+	depth = -y;
+	if (current_slot != noone){
+		x = anchor_slot.x;
+		y = anchor_slot.y;
+	}
 }
 
 if (is_dragging){

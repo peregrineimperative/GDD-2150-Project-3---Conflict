@@ -6,12 +6,15 @@ function spawn_faction(_index, _name, _is_human){
 		name: _name,
 		is_human: _is_human,
 		eliminated: false,
-		turn_active: false,
+		player_state,
 		
 		is_active: function (){
 			return !self.eliminated;
 		},
 		
+		begin_turn: function (){
+				
+		}
 		
 	}
 	

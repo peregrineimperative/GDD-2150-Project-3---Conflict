@@ -8,8 +8,10 @@ function spawn_card(_x, _y, _name, _faction, _str, _tac, _spd){
 	
     var inst = instance_create_layer(_x, _y, "Cards", obj_card); //create card object at desired location, on the card layer
     
-	inst.set_card(card(_name,_faction, _str, _tac, _spd)); //build card according to the card constructor
+	var card = new card(_name,_faction, _str, _tac, _spd); //build card according to the card constructor
     
+	inst.set_card(card);
+	
 	return inst;
 
 }

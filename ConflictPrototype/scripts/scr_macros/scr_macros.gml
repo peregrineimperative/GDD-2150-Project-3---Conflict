@@ -8,7 +8,7 @@
 
 //---Board dims---
 #macro CARD_BUFFER (CARD_W * .2)
-#macro BOARD_W ((CARD_W * 4) + (CARD_BUFFER * 5))
+#macro BOARD_W ((CARD_W * 3) + (CARD_BUFFER * 4))
 #macro BOARD_H ((CARD_H * 2) + (CARD_BUFFER * 3))
 //#macro BOARD_H 
 //#macro BOARD_W

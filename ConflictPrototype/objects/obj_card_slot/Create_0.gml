@@ -1,18 +1,15 @@
 //---Card slot data---
-occupied = false;
-card_in_slot = noone;
+is_occupied = false;
+occupant = noone;
 
 //---Row information---
 row_index = -1;
 row_ref = noone
 
-is_occupied = function(){
-	return occupied;	
-}
 
 set_occupied = function(value, obj_card){
-	occupied = value;
-	card_in_slot = obj_card;
+	is_occupied = value;
+	occupant = obj_card;
 }
 
 sprite_index = spr_card_slot;
