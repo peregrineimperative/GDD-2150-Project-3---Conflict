@@ -2,6 +2,11 @@
 is_occupied = false;
 occupant = noone;
 
+is_highlighted = false; 
+
+snap_x = x + sprite_width/2;
+snap_y = y + sprite_height/2;
+
 //---Row information---
 row_index = -1;
 row_ref = noone
@@ -12,4 +17,4 @@ set_occupied = function(value, obj_card){
 	occupant = obj_card;
 }
 
-sprite_index = spr_card_slot;
+//sprite_index = spr_card_slot;

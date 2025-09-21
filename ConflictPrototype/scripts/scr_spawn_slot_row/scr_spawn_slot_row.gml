@@ -51,21 +51,21 @@ function spawn_slot_row(_board, _layer, _start_x, _start_y, _board_angle, _count
 		}
 	};
 	
-	// Create the slot instances and register them as belonging to the row
+	//Create the slot instances and register them as belonging to the row
 	for (var i = 0; i < _count; ++i) {
 		
-	    // Position each slot with a constant step in X, optional step in Y, based on the CARD_BUFFER size
+	    //Position each slot with a constant step in X, optional step in Y, based on the CARD_BUFFER size
 	    var xx = _start_x + (i * (CARD_BUFFER + CARD_W));
 	    //var yy = _start_y + i * spacing_y;
 
-	    // Create the instance on the desired layer
+	    //Create the instance on the desired layer
 	    var _inst = instance_create_layer(xx, _start_y, _layer, obj_card_slot);
 
-	    // Row references to be held on the card slot itself
-	    _inst.row_index = i; // index of this slot within the row
-	    _inst.row_ref = _row; // pointer back to the row struct (possibly useful if we want to check if an entire row is clear.)
+	    //Row references to be held on the card slot itself
+	    _inst.row_index = i; //index of this slot within the row
+	    _inst.row_ref = _row; //pointer back to the row struct (possibly useful if we want to check if an entire row is clear.)
 
-	    // Save the instance ID in the row’s array
+	    //Save the instance ID in the row’s array
 	    _row.slots[i] = _inst;
 	}
 	

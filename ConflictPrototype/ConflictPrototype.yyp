@@ -40,6 +40,7 @@
   },
   "name":"ConflictPrototype",
   "resources":[
+    {"id":{"name":"obj_card_slot_highlight","path":"objects/obj_card_slot_highlight/obj_card_slot_highlight.yy",},},
     {"id":{"name":"obj_card_slot","path":"objects/obj_card_slot/obj_card_slot.yy",},},
     {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
     {"id":{"name":"obj_faction","path":"objects/obj_faction/obj_faction.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"scr_card_constructor","path":"scripts/scr_card_constructor/scr_card_constructor.yy",},},
     {"id":{"name":"scr_combat","path":"scripts/scr_combat/scr_combat.yy",},},
     {"id":{"name":"scr_drag_and_drop","path":"scripts/scr_drag_and_drop/scr_drag_and_drop.yy",},},
+    {"id":{"name":"scr_highlight","path":"scripts/scr_highlight/scr_highlight.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"scr_spawn_card","path":"scripts/scr_spawn_card/scr_spawn_card.yy",},},
     {"id":{"name":"scr_spawn_faction","path":"scripts/scr_spawn_faction/scr_spawn_faction.yy",},},

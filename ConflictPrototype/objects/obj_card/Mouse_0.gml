@@ -5,8 +5,10 @@
 //// Bring to front while dragging
 //depth = -9999;
 
-//////
+////
+//potential_slot = instance_place(x, y, obj_card_slot);
 
+//if (collision_point(
 
 //if (position_meeting(mouse_x, mouse_y, id)) {
 //    is_dragging = true;
@@ -18,6 +20,3 @@
 //		}
 //        current_slot = noone;
 //    }
-//}
-
-//if 
