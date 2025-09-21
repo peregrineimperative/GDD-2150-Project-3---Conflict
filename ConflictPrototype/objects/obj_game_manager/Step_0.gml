@@ -60,12 +60,15 @@ if troopStrength >= playerStrength
 	{
 		case 0:
 		//choose among a list of attacking options
+		Attack()
 		
 		case 1:
 		//choose from defensive options
+		Fortify()
 		
 		case 2:
 		//choose from econ options
+		Farm()
 	}
 	
 	playerTurn = true
