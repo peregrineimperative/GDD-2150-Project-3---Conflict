@@ -16,7 +16,7 @@ potential_slot = noone;
 drag_dx = 0;
 drag_dy = 0;
 
-depth = -y;
+depth = CARD_D;
 
 ////
 

@@ -6,15 +6,18 @@
 
 #macro SLOT_FRAME 5
 
+#macro SLOT_H (CARD_H + (SLOT_FRAME*2))
+#macro SLOT_W (CARD_W + (SLOT_FRAME*2))
+
 //---Board dims---
-#macro CARD_BUFFER (CARD_W * .5)
-#macro BOARD_W ((CARD_W * 3) + (CARD_BUFFER * 4))
-#macro BOARD_H ((CARD_H * 2) + (CARD_BUFFER * 3))
-//#macro BOARD_H 
-//#macro BOARD_W
+#macro CARD_BUFFER 10
+#macro BOARD_W ((CARD_W * 3) + (CARD_BUFFER * 4)) //145
+#macro BOARD_H ((CARD_H * 2) + (CARD_BUFFER * 3)) //120
+
 
 //---Object depths---
 //lower number = closer to camera
 #macro CARD_D 0
 #macro SLOT_D 100
+#macro HIGHLIGHT_D 150
 #macro BOARD_D 200
