@@ -4,6 +4,8 @@ global.active_card = noone;
 global.target_card = noone;
 global.prev_slot = noone;
 global.next_slot = noone;
+//Instantiate other game systems
+randomize()
 
 //Create highlight object
 global.highlight = instance_create_depth(x, y, HIGHLIGHT_D, obj_card_slot_highlight);
@@ -42,12 +44,18 @@ for (var i = 1; i < 4; i++){
 //Instantiate game camera
 
 //Keep track of turn order
+playerTurn = false
 
 //---Popup Box---
 enum BoxType{
 	Combat,
 	UnitManagement
 }
+troopStrength = 2
+enemyDecision = 0
+isTrue = 2
+higherStrength = false
+playerStrength = 3
 
 
 
@@ -60,3 +68,12 @@ spawn_card(300, 300, "Army", factions[1] , 1, 1, 1);
 //spawn_card(300, 200, "Cards", "Army", 1, 1, 1);
 
 //test_row = spawn_slot_row("Player", noone, "Cards", 200, 200, 0, 3)
+//placeholder values to demonstrate the random picking function
+attackWeight = 5
+defenseWeight = 3
+econWeight = 2
+
+enemyTurnType = 5
+numberOfWeightedOptions = 3
+randomNumber = 0
+cutoffPoint = 0

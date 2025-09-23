@@ -52,6 +52,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_card_constructor","path":"scripts/scr_card_constructor/scr_card_constructor.yy",},},
     {"id":{"name":"scr_check_next_slot","path":"scripts/scr_check_next_slot/scr_check_next_slot.yy",},},
+    {"id":{"name":"scr_attack","path":"scripts/scr_attack/scr_attack.yy",},},
     {"id":{"name":"scr_combat","path":"scripts/scr_combat/scr_combat.yy",},},
     {"id":{"name":"scr_combine","path":"scripts/scr_combine/scr_combine.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},

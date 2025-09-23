@@ -36,6 +36,8 @@
     {"name":"scr_spawn_card","order":1,"path":"scripts/scr_spawn_card/scr_spawn_card.yy",},
     {"name":"scr_spawn_faction","order":3,"path":"scripts/scr_spawn_faction/scr_spawn_faction.yy",},
     {"name":"scr_spawn_slot_row","order":1,"path":"scripts/scr_spawn_slot_row/scr_spawn_slot_row.yy",},
+    {"name":"scr_attack","order":2,"path":"scripts/scr_attack/scr_attack.yy",},
+    {"name":"scr_combat","order":1,"path":"scripts/scr_combat/scr_combat.yy",},
     {"name":"spr_card_frame","order":1,"path":"sprites/spr_card_frame/spr_card_frame.yy",},
     {"name":"spr_game_board","order":3,"path":"sprites/spr_game_board/spr_game_board.yy",},
     {"name":"spr_ok_button","order":5,"path":"sprites/spr_ok_button/spr_ok_button.yy",},
