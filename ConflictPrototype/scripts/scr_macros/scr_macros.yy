@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_drag_and_drop",
+  "%Name":"scr_macros",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_drag_and_drop",
+  "name":"scr_macros",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Game Setup",
+    "path":"folders/Scripts/Game Setup.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

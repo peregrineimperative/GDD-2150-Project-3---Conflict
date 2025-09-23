@@ -1,0 +1,2 @@
+draw_self()
+//draw_sprite_stretched(sprite_index, 0, x, y, CARD_W + SLOT_FRAME, CARD_H + SLOT_FRAME); 

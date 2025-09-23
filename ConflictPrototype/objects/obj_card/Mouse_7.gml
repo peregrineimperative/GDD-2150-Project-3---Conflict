@@ -1,7 +1,20 @@
-if (is_dragging) {
-    is_dragging = false;
-    depth = -y;
-   
-   //check for valid card slot (come back to this)
-   //if (point_in_rectangle(x, y, slot_x1, slot_y1, slot_x2, slot_y2)) { x = slot_x; y = slot_y; }
-}
+//if (is_dragging) {
+//    is_dragging = false;
+//    depth = -y;	
+	
+//	//check if released on a new card slot
+	
+//	potential_slot = instance_place(x, y, obj_card_slot);
+	
+	
+//	//var _nearest_slot = instance_nearest(mouse_x, mouse_y, obj_card_slot);
+	
+//	if (_potential_slot = _nearest_slot){
+//		x = _potential_slot.snap_x;
+//		y = _potential_slot.snap_y;
+//	}
+//}
+
+
+ 
+ 
