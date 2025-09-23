@@ -21,3 +21,9 @@ enemyTurnType = 5
 numberOfWeightedOptions = 3
 randomNumber = 0
 cutoffPoint = 0
+
+//variables used for combat
+speedTied = false
+
+a = true
+

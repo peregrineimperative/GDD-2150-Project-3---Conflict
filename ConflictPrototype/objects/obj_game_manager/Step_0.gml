@@ -5,6 +5,12 @@
 //troopStrength = true
 
 
+if(a = true)
+{
+	Attack(obj_card, obj_card)
+	a = false
+}
+
 show_debug_log(true)
 
 
@@ -60,15 +66,15 @@ if troopStrength >= playerStrength
 	{
 		case 0:
 		//choose among a list of attacking options
-		Attack()
+		//Attack(obj_card1, obj_card2)
 		
 		case 1:
 		//choose from defensive options
-		Fortify()
+		//Fortify()
 		
 		case 2:
 		//choose from econ options
-		Farm()
+		//Farm()
 	}
 	
 	playerTurn = true

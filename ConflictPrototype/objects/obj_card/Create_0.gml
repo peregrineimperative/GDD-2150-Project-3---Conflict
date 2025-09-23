@@ -14,4 +14,6 @@ card_strength = 7
 card_tactics = 5
 card_speed = 6
 
+temporary_roll = 0
+
 final_damage = 0
