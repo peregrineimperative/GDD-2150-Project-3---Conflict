@@ -6,12 +6,18 @@
 
 function spawn_card(_x, _y, _name, _faction, _str, _tac, _spd){	
 	
-    var inst = instance_create_layer(_x, _y, "Cards", obj_card); //create card object at desired location, on the card layer
+    var _inst = instance_create_layer(_x, _y, "Cards", obj_card); //create card object at desired location, on the card layer
+		with _inst {
+			name = _name;
+			faction = _faction;
+			st_strength = _str;
+			st_tactics = _tac;
+			st_speed = _spd;			
+		}
+	//var card = new card(_name,_faction, _str, _tac, _spd); //build card according to the card constructor
     
-	var card = new card(_name,_faction, _str, _tac, _spd); //build card according to the card constructor
-    
-	inst.set_card(card);
+	//_inst.set_card(card);
 	
-	return inst;
+	return _inst;
 
 }

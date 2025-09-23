@@ -1,8 +1,8 @@
 ///Game-wide variables
 
 //---Card dims---
-#macro CARD_H 35
-#macro CARD_W 25
+#macro CARD_H 35 //35
+#macro CARD_W 25 //25
 
 #macro SLOT_FRAME 5
 
@@ -14,6 +14,7 @@
 #macro BOARD_W ((CARD_W * 3) + (CARD_BUFFER * 4)) //145
 #macro BOARD_H ((CARD_H * 2) + (CARD_BUFFER * 3)) //120
 
+#macro ROOM_BUFFER 150
 
 //---Object depths---
 //lower number = closer to camera

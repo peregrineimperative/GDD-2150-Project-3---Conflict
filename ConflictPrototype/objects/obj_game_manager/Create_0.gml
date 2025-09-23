@@ -10,10 +10,10 @@ global.highlight = instance_create_depth(x, y, HIGHLIGHT_D, obj_card_slot_highli
 
 //---Board Spawning Info---
 board_positions = array_create(4, noone);
-board_positions[0] = new vector2(300, 450);
-board_positions[1] = new vector2(450, 300);
-board_positions[2] = new vector2(300, 150);
-board_positions[3] = new vector2(150, 300);
+board_positions[0] = new vector2(room_width/2, room_height - ROOM_BUFFER);
+board_positions[1] = new vector2(room_width - ROOM_BUFFER, room_height/2);
+board_positions[2] = new vector2(room_width/2, ROOM_BUFFER);
+board_positions[3] = new vector2(ROOM_BUFFER, room_height/2);
 
 
 //---Faction Instantiation---
@@ -53,7 +53,9 @@ enum BoxType{
 
 
 //Test stuff please ignore
-spawn_card(100, 200, "Cards", "Army", 1, 1, 1);
+spawn_card(100, 200, "Army", factions[0] , 1, 1, 1);
+
+spawn_card(300, 300, "Army", factions[1] , 1, 1, 1);
 
 //spawn_card(300, 200, "Cards", "Army", 1, 1, 1);
 

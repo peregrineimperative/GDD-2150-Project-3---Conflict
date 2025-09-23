@@ -1,10 +1,10 @@
 /// This function processes combat between two cards.
 
-function combat(){
+function combat(_active, _target){
 	
 	instance_create_depth(room_width/2, room_height /2, POPUP_D, obj_popup_box, {
 		box_type : "Combat"
-	)
+	})
 	
 	//Determine who deals damage first based on relative speeds.
 	//Card that moves first should deal damage, then card that moves second. If tie, should be simultaneous

@@ -20,4 +20,6 @@ set_occupied = function(value, obj_card){
 	occupant = obj_card;
 }
 
+
+
 //sprite_index = spr_card_slot;

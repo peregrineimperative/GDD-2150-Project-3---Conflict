@@ -71,7 +71,7 @@ function spawn_slot_row(_faction, _board, _layer, _start_x, _start_y, _board_ang
 	    //Row references to be held on the card slot itself
 	    _inst.row_index = i; //index of this slot within the row
 	    _inst.row_ref = _row; //pointer back to the row struct (possibly useful if we want to check if an entire row is clear.)		
-
+		_inst.faction = _faction;
 	    //Save the instance ID in the row’s array
 	    _row.slots[i] = _inst;
 	}

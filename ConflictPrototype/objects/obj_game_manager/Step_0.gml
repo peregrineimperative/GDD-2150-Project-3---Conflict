@@ -13,6 +13,9 @@ if (global.active_card != noone){
 				{
 					global.next_slot = _inst;
 					_inst.is_highlighted = true;
+					if (_inst.is_occupied){
+						global.target_card = _inst.occupant;
+					}
 				} else {
 					_inst.is_highlighted = false;	
 				}

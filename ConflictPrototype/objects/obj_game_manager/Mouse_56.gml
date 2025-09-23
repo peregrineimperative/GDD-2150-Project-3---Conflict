@@ -10,9 +10,10 @@ if (global.active_card != noone && global.next_slot != noone){
 	
 }
 
-//Set all cards as not being dragged
+//Set all cards as not being dragged and reset depth
 with obj_card {
 	is_dragging = false;
+	depth = CARD_D;
 }
 
 //Reset next_slot
