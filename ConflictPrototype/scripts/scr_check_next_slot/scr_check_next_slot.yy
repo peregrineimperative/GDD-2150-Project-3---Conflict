@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_spawn_player_board",
+  "%Name":"scr_check_next_slot",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_spawn_player_board",
+  "name":"scr_check_next_slot",
   "parent":{
-    "name":"Game Setup",
-    "path":"folders/Scripts/Game Setup.yy",
+    "name":"Actions",
+    "path":"folders/Scripts/Actions.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

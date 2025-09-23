@@ -5,7 +5,8 @@ function card(_name, _faction, _strength, _tactics, _speed) constructor {
 	static next_id = 1; //static variable to count up after the first time its called
 
 	id = next_id++; //a newly made card should take the current id, then increment
-	name = _name;
+	name = _name;	
+	faction = _faction;
 
 	//stat block; the st_ prefix is for consistency because speed is a built-in variable
 	stats = {

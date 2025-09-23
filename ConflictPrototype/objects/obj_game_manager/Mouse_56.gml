@@ -1,21 +1,20 @@
+//If there is an active card, and there is a slot to drop that card into, determine the validity of that move.
 if (global.active_card != noone && global.next_slot != noone){
-	with global.active_card{
-		x = global.next_slot.x;
-		y = global.next_slot.y;
-		current_slot = global.next_slot;
-	}
 	
+	check_next_slot()
+	
+//If the first case is not true (that is, there is no viable next_slot) the card will snap back to its previous position.
 } else if (global.active_card != noone && global.prev_slot != noone) {	
-	with global.active_card{
-		x = (global.prev_slot.x - (sprite_width /2));
-		y = (global.prev_slot.y - (sprite_height /2));
-		current_slot = global.prev_slot;
-	}
+	
+	snap_to_slot(global.active_card, global.prev_slot);	
+	
 }
 
+//Set all cards as not being dragged
 with obj_card {
 	is_dragging = false;
 }
 
+//Reset next_slot
 global.next_slot = noone;
 

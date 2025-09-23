@@ -15,20 +15,16 @@ potential_slot = noone;
 //Variables to make sure that the card doesn't immediately snap to the cursor
 drag_dx = 0;
 drag_dy = 0;
-
+//default card depth
 depth = CARD_D;
 
 ////
 
+copy = function(){
+	return instance_copy(false)
+}
 
 set_card = function(c) {
     card_data = c;
     // name = c.name; faction = c.faction; ...
 };
-
-
-
-
-
-//Snap radius (tweak as desired); you can also choose overlap-only behavior
-//snap_radius = max(CARD_W, CARD_H) * 0.6;

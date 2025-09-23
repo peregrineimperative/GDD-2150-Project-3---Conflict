@@ -12,7 +12,7 @@ depth = SLOT_D;
 
 //---Row information---
 row_index = -1;
-row_ref = noone
+row_ref = noone;
 
 
 set_occupied = function(value, obj_card){

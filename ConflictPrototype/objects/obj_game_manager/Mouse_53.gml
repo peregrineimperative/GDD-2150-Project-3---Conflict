@@ -2,8 +2,7 @@
 
 //if there is an active card, clicking/holding will cause it to start being dragged.
 
-if (global.active_card != noone) {
-	
+if (global.active_card != noone) {		
 	
     with (global.active_card){
 		is_dragging = true;

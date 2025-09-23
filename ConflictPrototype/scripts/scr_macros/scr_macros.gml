@@ -17,7 +17,11 @@
 
 //---Object depths---
 //lower number = closer to camera
+
+#macro POPUP_INFO_D -600
+#macro POPUP_D -500
 #macro CARD_D 0
 #macro SLOT_D 100
 #macro HIGHLIGHT_D 150
 #macro BOARD_D 200
+

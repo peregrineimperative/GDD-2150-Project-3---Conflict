@@ -9,7 +9,8 @@ frontline_slots =
 		x - SLOT_W, 
 		y - SLOT_H + CARD_BUFFER, 
 		0, 
-		3
+		3,
+		"Frontline"
 	);
 
 backline_slots = 
@@ -20,7 +21,8 @@ backline_slots =
 		x - SLOT_W, 
 		y + SLOT_H - CARD_BUFFER, 
 		0, 
-		3
+		3,
+		"Backline"
 	);
 
 
