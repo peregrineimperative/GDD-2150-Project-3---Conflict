@@ -1,8 +1,9 @@
 if (!is_dragging){
-	depth = -y;	
+	depth = -y; //fix this
+	if (current_slot != noone){
+		x = current_slot.x;
+		y = current_slot.y;
+	}
 }
 
-if (is_dragging){
-	x = mouse_x - drag_dx;
-	y = mouse_y - drag_dy;
-}
+
