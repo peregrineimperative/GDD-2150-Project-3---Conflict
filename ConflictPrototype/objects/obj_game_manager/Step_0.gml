@@ -32,7 +32,7 @@ if troopStrength >= playerStrength
 	var sumValue = (attackWeight+defenseWeight+econWeight)
 	//Set the minimum value to a very small number to avoid edge case of picking
 	//exactly 0 and causing the for loop to not get run at all
-	randomNumber = random_range(0.0001,sumValue)
+	randomNumber = random_range(0.01,sumValue)
 	show_debug_message("randomly rolled number: " + string(randomNumber))
 	
 	//Makes a list of weights to use values later
